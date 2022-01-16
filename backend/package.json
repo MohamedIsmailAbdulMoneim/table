@@ -1,0 +1,41 @@
+{
+  "scripts": {
+    "start": "node app",
+    "server": "nodemon",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.7",
+    "base64url": "^3.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "file-saver": "^2.0.5",
+    "formidable": "^1.2.2",
+    "jquery": "^3.6.0",
+    "jsonpath": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.13",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react-icons": "^4.3.1",
+    "react-table-filter": "^2.0.2",
+    "resize-observer": "^1.0.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.16.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "concurrently": "^6.2.1"
+  }
+}
