@@ -1,0 +1,9 @@
+{
+  "pg": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "",
+    "host": "localhost",
+    "database": "hr_database"
+  }
+}
